@@ -247,9 +247,40 @@ a:hover:after {
     padding-bottom: 20px;
 }
 
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 80px;
+}
 
+.card{
+    width: 250px;
+    height: 400px;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(192, 21, 21, 0.3);
+    overflow: hidden;
+    margin: 15px;
+}
 
+.card h4{
+    text-align: center;
+    padding-top: 20px;
+}
 
+.card h6{
+    text-align: center;
+    padding: 10px;
+    color: #696969;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
 
 
 
