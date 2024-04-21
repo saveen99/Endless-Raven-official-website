@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-family: "Sora", sans-serif;
+}
+
+/*Header Section*/
+
+header {
+    width: 100%;
+    background-color: #fff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    position: fixed;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px; /* Adjust height as needed */
+    margin-right: 10px;
+}
+
+header ul {
+    list-style-type: none;
+    padding-left: 400px;
+    margin: 0;
+    text-align: center;
+}
+
+header ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #696969;
+    font-size: small;
+
+    display: inline-block;
+    position: relative;
+    
+}
+
+a:hover {
+    color: #ff0000;
+}
+
+a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    top: 20px;
+    left: 0;
+    
+    background-color: #ff0000;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    
+  }
+
+/*Header Section End*/
+
+/*Hero Section*/
+
+#hero {
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.container{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.left{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    padding-left: 50px;
+    background: transparent;
+}
+
+.left h1{
+    font-family: "Sora", sans-serif;
+    font-size: 80px;
+}
+
+.left h3{
+    font-family: "Sora", sans-serif;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+
+.right{
+    width: 50%;
+    height: 500px;
+    padding-left: 70px;
+    margin-left: -130px;
+    background: transparent;
+    
+}
+
+.right img {
+    padding-top: 100px;
+    height: 70vh;
+    
+}
+
+/**/
+
+#text1 {
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+    font-family: "Sora", sans-serif;
+    padding-bottom: 50px;
+}
+
+
+.btn {
+    align-items: center;
+    appearance: none;
+    background-color: #ff0000;
+    background-size: calc(100% + 20px) calc(100% + 20px);
+    border-radius: 100px;
+    border-width: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "Sora", sans-serif;
+    font-size: 1rem;
+    height: auto;
+    justify-content: center;
+    line-height: 1.5;
+    padding: 6px 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .2s,background-position .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.btn:active,
+.btn:focus {
+  outline: none;
+}
+
+.btn:hover {
+  background-position: -20px -20px;
+}
+
+.btn:focus:not(:active) {
+  box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+}
+
+/*About Section*/
+
+#about{
+    min-height: 100vh;
+    width: 100%;
+    display: contents;
+}
+
+#about h2{
+    font-family: "Sora", sans-serif;
+    text-align: center;
+    color: #ff0000;
+    padding-bottom: 30px;
+}
+
+#about P{
+    font-family: "Sora", sans-serif;
+    text-align: center;
+    color: #696969;
+}
+
+#about_photo{
+    width: 600px;
+    height: auto;
+    margin: 40px;
+    margin-left: 200px;
+    border-color: #333;
+    border-radius: 20px;
+}
+
+/*About Section End*/
+
+/*Footer*/
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: static;
+    width: 100%;
+    bottom: 0;
+}
