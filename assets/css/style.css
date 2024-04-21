@@ -211,6 +211,7 @@ a:hover:after {
     font-family: "Sora", sans-serif;
     text-align: center;
     color: #696969;
+    padding-bottom: 20px;
 }
 
 #about_photo{
@@ -223,6 +224,34 @@ a:hover:after {
 }
 
 /*About Section End*/
+
+/*Service Section*/
+
+#services{
+    min-height: 100vh;
+    width: 100%;
+    display: contents;
+}
+
+#services h2{
+    font-family: "Sora", sans-serif;
+    text-align: center;
+    color: #ff0000;
+    padding-bottom: 30px;
+}
+
+#services P{
+    font-family: "Sora", sans-serif;
+    text-align: center;
+    color: #696969;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
 
 /*Footer*/
 
