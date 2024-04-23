@@ -291,6 +291,13 @@ a:hover:after {
     object-fit: cover;
 }
 
+.top{
+    height: 65%;
+}
+.bottom{
+    height: 35%;
+}
+
 .card-button{
     font-size: smaller;
     display: inline-block;
