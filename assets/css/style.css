@@ -376,6 +376,31 @@ a:hover:after {
     object-position: center;
 }
 
+.profile{
+    display: flex;
+    align-items: center;
+}
+
+.name-user{
+    display: flex;
+    flex-direction: column;
+}
+
+.name-user strong{
+    color: #3d3d3d;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+
+.name-user span{
+    color: #979797;
+    font-size: 0.8rem;
+}
+
+.reviews{
+    color: #ff0000;
+}
+
 /*Review Section End*/
 
 /*Portfolio Section */
