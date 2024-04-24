@@ -195,17 +195,21 @@ a:hover:after {
 /*About Section*/
 
 #about{
-    min-height: 100vh;
     width: 100%;
-    display: contents;
+    display: flex;
+    font-family: "Sora", sans-serif;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 }
 
 .about-container{
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 50px;
+    
 }
 
 .about-container img{
@@ -213,7 +217,9 @@ a:hover:after {
     height: auto;
     border-color: #333;
     border-radius: 20px;
-
+    display: block;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -261,8 +267,8 @@ a:hover:after {
     justify-content: center;
     flex-wrap: wrap;
     gap: 25px;
-    margin-top: 80px;
-    margin-bottom: 200px;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 .card{
@@ -359,7 +365,7 @@ a:hover:after {
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
-    margin-bottom: 200px;
+    margin-bottom: 20px;
 }
 
 .testimonial-box{
@@ -369,6 +375,15 @@ a:hover:after {
     padding: 20px;
     margin: 15px;
     cursor: pointer;
+}
+
+.testimonial-box:hover{
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+}
+
+.testimonial-button{
+    margin-bottom: 100px;
 }
 
 .profile-img{
@@ -423,26 +438,38 @@ a:hover:after {
     color: #696969;
 }
 
+@media(max-width:1060px){
+    .testimonial-box{
+        width: 45%;
+        padding: 10px;
+    }
+}
+
+@media(max-width:790px){
+    .testimonial-box{
+        width: 100%;
+    }
+    .testimonial-heading h1{
+        font-size: 1.4rem;
+    }
+}
+
+@media(max-width:340px){
+    .box-top{
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    .reviews{
+        margin-top: 10px;
+    }
+}
+
+::selection{
+    color: #ffffff;
+    background-color: #252525;
+}
+
 /*Review Section End*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -469,6 +496,10 @@ a:hover:after {
 }
 /*Portfolio Section End */
 
+
+
+
+
 /*Contact Section */
 #contact{
     min-height: 100vh;
@@ -483,13 +514,92 @@ a:hover:after {
     padding-bottom: 30px;
 }
 
+#contact h3{
+    font-family: "Sora", sans-serif;
+    text-align: center;
+    color: #696969;
+    padding-bottom: 20px;
+}
+
 #contact P{
     font-family: "Sora", sans-serif;
     text-align: center;
     color: #696969;
     padding-bottom: 20px;
 }
+
+/**/
+
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 20px;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .form-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+  }
+
+  label {
+    font-family: "Sora", sans-serif;
+    color: #696969;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  input, textarea {
+    background-color: #fcdfeb;
+    border-radius: 10px;
+    display: block;
+    height: 50px;
+    width: 80%;
+    box-sizing: border-box;
+    border: transparent;
+  }
+  
+  input[type="submit"] {
+    width: auto;
+    margin: 10px;
+  }
+
 /*Contact Section End*/
+
+
+
+
+
+
+
+
+
+
 
 /*Footer*/
 
