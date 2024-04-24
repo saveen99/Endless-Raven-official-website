@@ -201,6 +201,22 @@ a:hover:after {
 
 }
 
+.about-container{
+    margin-bottom: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.about-container img{
+    width: 500px;
+    height: auto;
+    border-color: #333;
+    border-radius: 20px;
+
+
+}
+
 #about h2{
     font-family: "Sora", sans-serif;
     text-align: center;
@@ -215,14 +231,6 @@ a:hover:after {
     padding-bottom: 20px;
 }
 
-#about_photo{
-    width: 600px;
-    height: auto;
-    margin: 40px;
-    margin-left: 200px;
-    border-color: #333;
-    border-radius: 20px;
-}
 
 /*About Section End*/
 
@@ -254,6 +262,7 @@ a:hover:after {
     flex-wrap: wrap;
     gap: 25px;
     margin-top: 80px;
+    margin-bottom: 200px;
 }
 
 .card{
@@ -350,6 +359,7 @@ a:hover:after {
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
+    margin-bottom: 200px;
 }
 
 .testimonial-box{
@@ -401,7 +411,41 @@ a:hover:after {
     color: #ff0000;
 }
 
+.box-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.clients-comment{
+    font-size: 0.9rem;
+    color: #696969;
+}
+
 /*Review Section End*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Portfolio Section */
 #portfolio{
