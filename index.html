@@ -7,6 +7,9 @@
     <link rel="icon" href="./favicon.ico" type="image/x-icon" >
     <link rel="stylesheet" href="./assets/css/style.css">
     <script src="https://kit.fontawesome.com/615e105aa4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+
     
 </head>
 <body>
@@ -49,7 +52,10 @@
         <div id="text1">
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam molestiae aspernatur dicta illo. Facilis ducimus iusto aperiam consectetur sunt nemo! Culpa vel quo ullam cumque fugiat tenetur, adipisci aliquam ab.</p>
             <br>
-            <button class="btn" role="button">View More</button>
+            <div class="button-container">
+                <button class="btn" role="button">View More</button>
+            </div>
+            
         </div>
 
         <div id="about">
@@ -217,7 +223,9 @@
 
             </div>
             <div class="testimonial-button">
-                <button class="btn" role="button">View More</button>
+                <div class="button-container">
+                    <button class="btn" role="button">View More</button>
+                </div>
             </div>
         </div>
 
@@ -281,14 +289,162 @@
                       <input type="tel" id="contact-number" name="contact-number"><br>
                       <label for="message">Message:</label><br>
                       <textarea id="message" name="message"></textarea><br>
-                      <input class="btn" type="submit" value="Send Message">
+                      <div class="button-container">
+                        <button class="btn" role="button">Send Message</button>
+                    </div>
                     </form>
+                </div>
+            </div>
+            
+        </div>
+        <div id="team-members">
+            <h2>Our Team</h2>
+            <h3>Reach Out, We're Here for You.</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure excepturi ratione voluptatem debitis molestiae consequatur ea unde blanditiis rerum, officia dolore omnis. Mollitia quos est, odit expedita vero illo accusantium?</p>
+            <div class="team-section">
+                <div class="container">
+                    
+                    <div class="team-card">
+                        <div class="card">
+                            <div class="img-section">
+                                <img src="./assets/images/profile-icon.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>Pamod Rathnayake</h3>
+                                <h4>Ui/Ux Designer</h4>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                                 
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="img-section">
+                                <img src="./assets/images/profile-icon.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>Udara Herath</h3>
+                                <h4>Ui/Ux Designer</h4>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.  </p>
+                                 
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="img-section">
+                                <img src="./assets/images/profile-icon.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>Saveen Maduranga</h3>
+                                <h4>Front-End Developer</h4>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                                 
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="img-section">
+                                <img src="./assets/images/profile-icon.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>Wimukthi Manchanayaka</h3>
+                                <h4>Front-End Developer</h4>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.  </p>
+                                 
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="img-section">
+                                <img src="./assets/images/profile-icon.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>Ishan Sandaruwan</h3>
+                                <h4>Back-End Developer</h4>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                                 
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="img-section">
+                                <img src="./assets/images/profile-icon.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>Shazna Salman</h3>
+                                <h4>Back-End Developer</h4>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.  </p>
+                                 
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
-    <footer>
-        <p>&copy; 2024 Simple Website. All rights reserved.</p>
+
+    <!-- footer section start -->
+    <footer id="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <a href="index.html"><img src="./assets/images/Endless Raven Logo.png" alt="" class="img-fluid logo-footer"></a>
+                        <div class="footer-about">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,  </p>
+                        </div>
+  
+            </div>
+            <div class="col-md-3">
+              <div class="useful-link">
+                <h2>Useful Links</h2>
+                <img src="./assets/images/about/home_line.png" alt="" class="img-fluid">
+                <div class="use-links">
+                  <li><a href="#"><i class="fa-solid fa-angles-right"></i> Home</a></li>
+                  <li><a href="#"><i class="fa-solid fa-angles-right"></i> About Us</a></li>
+                  <li><a href="#"><i class="fa-solid fa-angles-right"></i> Gallery</a></li>
+                  <li><a href="#"><i class="fa-solid fa-angles-right"></i> Contact</a></li>
+                </div>
+              </div>
+  
+            </div>
+                      <div class="col-md-3">
+                          <div class="social-links">
+                <h2>Follow Us</h2>
+                <img src="./assets/images/about/home_line.png" alt="">
+                <div class="social-icons">
+                  <li><a href="#"><i class="fa-brands fa-facebook-f"></i> Facebook</a></li>
+                  <li><a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+                  <li><a href="#"><i class="fa-brands fa-linkedin-in"></i> Linkedin</a></li>
+                </div>
+              </div>
+                      
+  
+                      </div>
+            <div class="col-md-3">
+              <div class="address">
+                <h2>Address</h2>
+                <img src="./assets/images/about/home_line.png" alt="" class="img-fluid">
+                <div class="address-links">
+                  <li class="address1"><i class="fa-solid fa-location-dot"></i> 123 Main Street,
+                    City, State 
+                     Zipcode</li>
+                     <li><a href=""><i class="fa-solid fa-phone"></i> +94 773730768</a></li>
+                     <li><a href=""><i class="fa-solid fa-envelope"></i> endlessravenonline@gmail.com</a></li>
+                </div>
+              </div>
+            </div>
+                    
+          </div>
+        </div>
+  
     </footer>
+    <!-- footer section end -->
+
+    <!-- footer copy right section start -->
+    <section id="copy-right">
+        <div class="copy-right-sec"><i class="fa-solid fa-copyright"></i>  
+           2024 Powerd By <a href="#">Endless Raven</a> 
+  
+  
+        </div>
+  
+    </section>
+    <!-- footer copy right section end -->
+    
 </body>
 </html>
