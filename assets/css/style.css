@@ -639,11 +639,20 @@ a:hover:after {
 
 #team-members h3{
     font-family: "Sora", sans-serif;
+    font-size:small ;
     text-align: center;
     color: #696969;
-    padding-bottom: 20px;
+    font-weight: bold;
+
 }
 
+#team-members h4{
+  font-family: "Sora", sans-serif;
+  font-size:x-small ;
+  text-align: center;
+  color: #8e8d8d;
+
+}
 
 #team-members P{
     font-family: "Sora", sans-serif;
@@ -664,7 +673,7 @@ a:hover:after {
 .team-section .container .team-card{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 40px;
     margin-top: 50px;
 }
@@ -681,8 +690,8 @@ a:hover:after {
 }
 
 .team-section .container .team-card .card .img-section img{
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     border-radius: 50%;
     border: 6px solid #fff;
 }
@@ -714,13 +723,19 @@ a:hover:after {
 
 @media screen and (max-width: 900px){
     .team-section .container .team-card{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 @media screen and (max-width: 768px){
     .team-section .container .team-card{
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
+}
+
+@media screen and (max-width: 480px){
+  .team-section .container .team-card{
+      grid-template-columns: 1fr;
+  }
 }
 
 /*Team Members Section End*/
@@ -871,7 +886,8 @@ a:hover:after {
       color: #777777;
   }
   .copy-right-sec{
-    padding: 1.8rem;
+    padding: 0.2rem;
+    font-size: small;
       background: #ed7e7e;
       color: #fff;
       text-align: center;
@@ -879,6 +895,7 @@ a:hover:after {
   .copy-right-sec a{
     color: #fcd462;
       font-weight: 500;
+      font-size: small;
   }
   a{
     text-decoration:none;
