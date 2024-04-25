@@ -45,7 +45,7 @@ header ul li {
 header ul li a {
     text-decoration: none;
     color: #696969;
-    font-size: large;
+    font-size: medium;
 
     display: inline-block;
     position: relative;
