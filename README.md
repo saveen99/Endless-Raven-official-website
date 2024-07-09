@@ -1,8 +1,14 @@
-# React + Vite
+# Endless-Raven-official-website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![PHP](https://img.shields.io/badge/PHP-7.4%2B-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)
 
-Currently, two official plugins are available:
+## Screenshots
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+<p align="center" ><img  src = "screenshots/001.png?raw=true" width = 1000px></p>
+
+
+
+<p align="center" ><img  src = "screenshots/002.png?raw=true" width = 1000px></p>
