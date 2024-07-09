@@ -1,0 +1,38 @@
+.our-team-card:hover .our-team-card-hover {
+  animation: cardHover 0.3s linear forwards;
+  display: flex;
+}
+.our-team-card .our-team-card-hover {
+  opacity: 0;
+  animation: reverseCardHover 0.3s linear forwards;
+}
+
+@keyframes reverseCardHover {
+  0% {
+    display: flex;
+    opacity: 0.9;
+    transform: translateY(-20rem);
+  }
+  50%{
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 0;
+    display: none;
+  }
+}
+
+@keyframes cardHover {
+  0% {
+    opacity: 0;
+    transform: translateY(0);
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(-20rem);
+    opacity: 0.9;
+  }
+}

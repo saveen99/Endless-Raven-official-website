@@ -1,0 +1,40 @@
+.endless {
+  background: -webkit-linear-gradient(#fa6363, #ff0000, #8d0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+}
+.raven {
+  background: -webkit-linear-gradient(#ffffff, #aeaeae, #646464);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+}
+#hero {
+  background-color: #3b3b3b;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
+      url("./slider/1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 2s ease;
+  animation: changeImage 20s ease infinite alternate;
+}
+@keyframes changeImage {
+  0% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),
+      url("./slider/1.jpg");
+  }
+  25% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),
+      url("./slider/2.png");
+  }
+  50% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),
+      url("./slider/3.jpg");
+  }
+  75% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),
+      url("./slider/4.jpg");
+  }
+}

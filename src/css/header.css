@@ -1,0 +1,31 @@
+.link {
+  color: #696969;
+  font-size: medium;
+  position: relative;
+  cursor: pointer;
+}
+.link:hover {
+  color: #ff0000;
+}
+.link:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  top: 20px;
+  left: 0;
+  background-color: #ff0000;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.link:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.cov{
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(5px);
+  z-index: 999;
+}

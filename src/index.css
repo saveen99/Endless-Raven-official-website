@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: "Poppins";
+  color: #696969;
+  scroll-behavior: smooth;
+}
+.bg {
+  background-image: linear-gradient(
+    45deg,
+    #d7aefb50,
+    #ffbbca50,
+    #80deea50,
+    #b2ebf250
+  );
+  animation: changeDirection 20s ease infinite alternate;
+  width: 100%;
+}
+@keyframes changeDirection {
+  0% {
+    background-image: linear-gradient(
+      45deg,
+      #d7aefb50,
+      #ffbbca50,
+      #80deea50,
+      #b2ebf250
+    );
+  }
+  25% {
+    background-image: linear-gradient(
+      135deg,
+      #d7aefb50,
+      #ffbbca50,
+      #80deea50,
+      #b2ebf250
+    );
+  }
+  50% {
+    background-image: linear-gradient(
+      225deg,
+      #d7aefb50,
+      #ffbbca50,
+      #80deea50,
+      #b2ebf250
+    );
+  }
+  75% {
+    background-image: linear-gradient(
+      315deg,
+      #d7aefb50,
+      #ffbbca50,
+      #80deea50,
+      #b2ebf250
+    );
+  }
+  100% {
+    background-image: linear-gradient(
+      45deg,
+      #d7aefb50,
+      #ffbbca50,
+      #80deea50,
+      #b2ebf250
+    );
+  }
+}
+
+.heading {
+  @apply text-red-500 font-semibold text-3xl lg:text-4xl uppercase mb-8;
+}
+
+.smooth {
+  transition: all 0.4s ease;
+}
+.anim {
+  animation: wiggle 1s ease infinite;
+}
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(-5deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

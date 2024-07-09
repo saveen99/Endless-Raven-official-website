@@ -1,0 +1,19 @@
+.tech-slider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 1.5rem;
+  }
+  
+  .tech-slides {
+    display: flex;
+    gap: 1rem;
+    animation: slide 20s infinite linear;
+  }
+
+  @keyframes slide {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(-150%); }
+    100% { transform: translateX(0%); }
+}
+  
