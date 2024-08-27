@@ -1,6 +1,22 @@
 import React from 'react'
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 export default function Mobile() {
   return (
     <div className='w-full min-h-[70vh] bg-gradient-to-tr from-fuchsia-200 to-pink-50 flex items-center justify-center'>
