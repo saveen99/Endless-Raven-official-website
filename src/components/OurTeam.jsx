@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/ourteam.css";
 
+
 export default function OurTeam() {
   const members = [
     {
